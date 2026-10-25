@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Camera, Battery, Maximize, Cpu, HardDrive } from 'lucide-react';
 
 export default function DeviceModal({ device, isOpen, onClose }) {
-  // HAPUS baris ini: if (!isOpen || !device) return null;
 
   return (
     // AnimatePresence harus selalu ada di luar pengecekan kondisi
